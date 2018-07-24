@@ -1,5 +1,5 @@
-# Master Challenge
-## Level 1 - 50 points
+# Lazy Dev
+## Level 1 - Master Challenge - 50 points
 
 ### Description
 > I really need to login to this [website](http://shell2017.picoctf.com:43393/), but the developer hasn't implemented login yet. Can you help?
