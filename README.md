@@ -2,12 +2,18 @@
 
 Writeups of some of PicoCTF 2017 challenges.
 
+## Disclaimer
+
+Despite being a developer for a while, I'm not a security expert, for example my knowledge of assembly is purely academical. Therefore certain problems have been solved in "othodox" ways, if you have any suggestion or correction let me know.
+
+So my advice to newcomers like me is: do not submit blindly the flag, read the process and try to understand and reproduce it, step by step.
+
 ## Legend
 
 | Icon | Meaning |
 | --- | --- |
 | 🕑 | Unfinished |
-| ❓ | Missing readme |
+| ❓ | Solved but writeup missing |
 
 ## Level 1
 
@@ -42,13 +48,13 @@ Writeups of some of PicoCTF 2017 challenges.
 * Forensics
     * [Meta Find Me](./level-2/forensics/meta-find-me)
     * [Little School Bus](./level-2/forensics/little-school-bus)
-    * [Just Keyp Trying](./level-2/forensics/just-keyp-trying) ❓
+    * [Just Keyp Trying](./level-2/forensics/just-keyp-trying)
 * Cryptography
-    * [SoRandom](./level-2/cryptography/sorandom) ❓
-    * [LeakedHashes](./level-2/cryptography/leaked-hashes) ❓
+    * [SoRandom](./level-2/cryptography/sorandom)
+    * [LeakedHashes](./level-2/cryptography/leaked-hashes)
     * [Weird RSA](./level-2/cryptography/weird-rsa) 🕑
 * Reverse engineering
-    * [A Thing Called the Stack](./level-2/a-thing-called-stack) ❓
+    * [A Thing Called the Stack](./level-2/a-thing-called-stack)
     * [Programmers Assemble](./level-2/programmers-assemble) ❓
 * Web exploitation
     * [My First SQL](./level-2/web-exploitation) ❓
