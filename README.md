@@ -55,21 +55,21 @@ So my advice to newcomers like me is: do not submit blindly the flag, read the p
     * [Weird RSA](./level-2/cryptography/weird-rsa) 🕑
 * Reverse engineering
     * [A Thing Called the Stack](./level-2/a-thing-called-stack)
-    * [Programmers Assemble](./level-2/programmers-assemble) ❓
+    * [Programmers Assemble](./level-2/programmers-assemble)
 * Web exploitation
-    * [My First SQL](./level-2/web-exploitation) ❓
-    * [TW_GR_E1_ART](./level-2/tw_gr_e1_art) 🕑
-    * [TW_GR_E2_EoTDS](./level-2/tw_gr_e2_eotds) 🕑
+    * [My First SQL](./level-2/web-exploitation/my-first-sql)
+    * [TW_GR_E1_ART](./level-2/web-exploitation/tw_gr_e1_art) 🕑
+    * [TW_GR_E2_EoTDS](./level-2/web-exploitation/tw_gr_e2_eotds) 🕑
 * Binary exploitation
-    * [Shellz](./level-2/shellz) ❓
-    * [Shells](./level-2/shells) ❓
-    * [Guess The Number](./level-2/guess-the-number) ❓
-    * [Ive Got A Secret](./level-2/ive-got-a-secret) ❓
-    * [Flagsay 1](./level-2/flagsay-1) ❓
-    * [VR Gear Console](./level-2/vr-gear-console) ❓
+    * [Shellz](./level-2/binary-exploitation/shellz)
+    * [Shells](./level-2/binary-exploitation/shells)
+    * [Guess The Number](./level-2/binary-exploitation/guess-the-number)
+    * [Ive Got A Secret](./level-2/binary-exploitation/ive-got-a-secret)
+    * [Flagsay 1](./level-2/binary-exploitation/flagsay-1) ❓
+    * [VR Gear Console](./level-2/binary-exploitation/vr-gear-console) ❓
 * Misc
-    * [Yarn](./level-2/yarn) ❓
-    * [Mystery Box](./level-2/mistery-box) 🕑
+    * [Yarn](./level-2/misc/yarn) ❓
+    * [Mystery Box](./level-2/misc/mistery-box) 🕑
 * [Master Challenge - Missing Identity](./level-2/master-challenge) ❓
 
 ## Level 3
