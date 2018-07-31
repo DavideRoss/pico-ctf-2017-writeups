@@ -69,7 +69,7 @@ So my advice to newcomers like me is: do not submit blindly the flag, read the p
     * [VR Gear Console](./level-2/binary-exploitation/vr-gear-console)
 * Misc
     * [Yarn](./level-2/misc/yarn)
-    * [Mystery Box](./level-2/misc/mistery-box)
+    * [Mystery Box](./level-2/misc/mystery-box)
 * [Master Challenge - Missing Identity](./level-2/master-challenge)
 
 ## Level 3

@@ -1,8 +1,8 @@
-# Mistery Box
+# Mystery Box
 ## level 2 - misc - 60 points
 
 ### Description
-> You've found a mystery machine with a sticky [note](./data/note.txt) attached to it! Oh, there's also this [picture](./data/MisteryBox.png) of the machine you found.
+> You've found a mystery machine with a sticky [note](./data/note.txt) attached to it! Oh, there's also this [picture](./data/MysteryBox.png) of the machine you found.
 
 ### Hints
 > * It really gets your gears Turing.
