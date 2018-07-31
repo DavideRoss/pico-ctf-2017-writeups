@@ -65,12 +65,12 @@ So my advice to newcomers like me is: do not submit blindly the flag, read the p
     * [Shells](./level-2/binary-exploitation/shells)
     * [Guess The Number](./level-2/binary-exploitation/guess-the-number)
     * [Ive Got A Secret](./level-2/binary-exploitation/ive-got-a-secret)
-    * [Flagsay 1](./level-2/binary-exploitation/flagsay-1) ❓
-    * [VR Gear Console](./level-2/binary-exploitation/vr-gear-console) ❓
+    * [Flagsay 1](./level-2/binary-exploitation/flagsay-1)
+    * [VR Gear Console](./level-2/binary-exploitation/vr-gear-console)
 * Misc
-    * [Yarn](./level-2/misc/yarn) ❓
-    * [Mystery Box](./level-2/misc/mistery-box) 🕑
-* [Master Challenge - Missing Identity](./level-2/master-challenge) ❓
+    * [Yarn](./level-2/misc/yarn)
+    * [Mystery Box](./level-2/misc/mistery-box)
+* [Master Challenge - Missing Identity](./level-2/master-challenge)
 
 ## Level 3
 
