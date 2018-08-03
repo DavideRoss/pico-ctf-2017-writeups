@@ -12,10 +12,14 @@
 
 ### Solution
 
+Download the file and check its type:
+
 ```
 $ file wigle
 wigle: SQLite 3.x database, last written using SQLite version 3008007
 ```
+
+It's a SQLite databse file, let's check what's inside:
 
 ```
 sqlite3 wigle
@@ -24,6 +28,8 @@ Enter ".help" for usage hints.
 sqlite> .tables
 android_metadata  location          network
 ```
+
+We have three tables: `android_metadata` have no relevant data to plot, `network` and `location` instead have a lot of data about latitude and longitude, maybe we can plot that. This is the content of `location` table (latitude and longitude data are the same on `network` and `location`);
 
 ```
 sqlite> select * from location;
@@ -47,9 +53,24 @@ sqlite> select * from location;
 ...
 ```
 
+But how we can plot them? We can use Google Maps API and plot them point by point, or we can use [Wigle](https://wigle.net/). We can't upload directly the file, instead we have to register an account, create a custom map and import data. We have to format the data before import, I used this query:
+
 ```
-sqlite3 wigle "SELECT lat, lon, _id FROM location" | tr "|" "," | pbcopy
+$ sqlite3 wigle "SELECT lat, lon, _id FROM location" | tr "|" ","
+-30.0,94.04,0
+-29.99,94.04,1
+-29.98,94.04,2
+-29.98,94.045,3
+-29.98,94.05,4
+-29.97,94.04,5
+-29.96,94.04,6
+-29.96,94.05,7
+-29.96,94.06,8
+-30.0,94.14,9
+...
 ```
+
+After data is imported, zoom in and you can read letters in the middle of the ocean formed by points. This is the flag.
 
 ### Flag
 ```

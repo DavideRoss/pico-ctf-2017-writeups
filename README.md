@@ -75,19 +75,19 @@ So my advice to newcomers like me is: do not submit blindly the flag, read the p
 ## Level 3
 
 * Forensics
-    * [Connect The Wigle](./level-3/forensics/connect-the-wigle) ❓
+    * [Connect The Wigle](./level-3/forensics/connect-the-wigle)
 * Cryptography
     * [HashChain](./level-3/cryptography/hashchain)
-    * [Broadcast](./level-3/cryptography/broadcast) ❓
+    * [Broadcast](./level-3/cryptography/broadcast) 🕑
 * Reverse engineering
     * [JSut Duck It Up](./level-3/reverse-engineering/jsut-duck-it-up)
-    * [Coffee](./level-3/reverse-engineering/coffee) ❓
-    * [Much Ado About Hacking](./level-3/reverse-engineering/much-ado-about-hacking) ❓
+    * [Coffee](./level-3/reverse-engineering/coffee)
+    * [Much Ado About Hacking](./level-3/reverse-engineering/much-ado-about-hacking)
 * Web exploitation
-    * [Biscuits](./level-3/reverse-engineering/biscuits) ❓
-    * [A Happy Union](./level-3/reverse-engineering/a-happy-union) ❓
-    * [No Eyes](./level-3/reverse-engineering/no-eyes) ❓
-    * [TW_GR_E3_GtI](./level-3/reverse-engineering/tw_gr_e3_gti) 🕑
+    * [Biscuits](./level-3/web-exploitation/biscuits)
+    * [A Happy Union](./level-3/web-exploitation/a-happy-union)
+    * [No Eyes](./level-3/web-exploitation/no-eyes)
+    * [TW_GR_E3_GtI](./level-3/web-exploitation/tw_gr_e3_gti) 🕑
 * Binary exploitation
     * [Config Console](./level-3/binary-exploitation/config-console) 🕑
     * [Enter The Matrix](./level-3/binary-exploitation/enter-the-matrix) 🕑

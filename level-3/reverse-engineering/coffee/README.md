@@ -8,20 +8,25 @@
 > * Is there a way to get the source of the program?
 
 ### Solution
+
+Download the file, it is clearly a compiled Java class. We can confirm it with `file`:
+
 ```
 $ file freeThePickles.class
 freeThePickles.class: compiled Java class data, version 52.0 (Java 1.8)
 ```
+
+The first thing I do in every challenge is running `strings`:
 
 ```
 $ strings freeThePickles.class
 error: /Library/Developer/CommandLineTools/usr/bin/strings: fat file: freeThePickles.class truncated or malformed (offset plus size of cputype (4590080) cpusubtype (7432) extends past the end of the file)
 ```
 
-strings - => strings search in all file
+It gives me an error, so let's try to search on all file with the `-` parameter:
 
 ```
-strings - freeThePickles.class
+$ strings - freeThePickles.class
 <init>
 Code
 LineNumberTable
@@ -66,7 +71,7 @@ println
 Zd3T
 ```
 
-[http://www.javadecompilers.com/](http://www.javadecompilers.com/)
+No success, so the next step is decompile the class, hoping it's not obfuscated. I used [this](http://www.javadecompilers.com/) service, it forces you to disable your AdBlock, but it's pretty good. This is the extracted code:
 
 ```java
 import java.util.Base64.Decoder;
@@ -74,7 +79,8 @@ import java.util.Base64.Decoder;
 public class problem {
   public problem() {}
   
-  public static String get_flag() { String str1 = "Hint: Don't worry about the schematics";
+  public static String get_flag() {
+    String str1 = "Hint: Don't worry about the schematics";
     String str2 = "eux_Z]\\ayiqlog`s^hvnmwr[cpftbkjd";
     String str3 = "Zf91XhR7fa=ZVH2H=QlbvdHJx5omN2xc";
     byte[] arrayOfByte1 = str2.getBytes();
@@ -94,6 +100,8 @@ public class problem {
 }
 ```
 
+It performs some operation on the characters of two different strings in the function `get_flag`, not called from `main`. So I decided to rewrite the code in Python and run it:
+
 ```python
 import base64
 
@@ -106,4 +114,14 @@ for i, c in enumerate(STR2):
     out += STR2[ord(STR1[i]) - 90]
 
 print base64.b64decode(out)
+```
+
+```
+$ python coffee.py
+flag_{pretty_cool_huh}
+```
+
+### Flag
+```
+flag_{pretty_cool_huh}
 ```
